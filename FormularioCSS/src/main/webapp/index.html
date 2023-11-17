@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario CSS</title>
+<link rel="stylesheet" href="estilos.css" type="text/css">
+</head>
+<body>
+
+	<h1>HOJA DE INSCRIPCION</h1>
+	
+	<h2>EN LOS CICLOS FORMATIVOS DE GADO SUPERIOR</h2>
+	
+	
+	<h3 style="text-align: left;">Datos Personales: </h3>
+	
+	<form>
+	<div class="seccion01">
+		<label>Nombre</label>
+	    <input type="text">
+		<label>Apellido</label>
+		<input type="text">
+		<label>DNI</label>
+		<input type="text"><br>
+		<label>Localidad de Nacimiento</label>
+			<input type="text">
+		<label>Provincia</label>
+			<select>
+				<option>Sevilla</option>
+				<option>Huelva</option>
+				<option>Cadiz</option>
+				<option>Jaen</option>
+				<option>Malaga</option>
+				<option>Granada</option>
+			</select>
+	
+
+		<label>Fecha de Nacimiento</label>
+			<input type="date"><br>
+			
+		<label>Direccion</label>
+			<input type="text">
+		<label>Codigo Postal</label>
+			<input type="number">
+	</div>
+	
+	<h3 style="text-align: left;">Forma de Acceso: </h3>
+
+	<div class="seccion02">
+
+	<ul>
+		<li><input type="radio">Directo</li>
+			<li><input type="radio">Bachillerato (Modalidad)<input type="tex"></li>
+			<li><input type="radio">Experimental<input type="tex"></li>
+			<li><input type="radio">COU Opción<input type="tex"></li>
+			<li><input type="radio">FP</li>
+			<li><input type="radio">Otros (especifique)<input type="tex"></li>
+		<li><input type="radio">Prueba Libre</li>
+
+	</ul>
+	</div>
+	
+	
+	<h3 style="text-align: left;">Documentacion Academica: </h3>
+	
+	<div class="seccion03">
+	<input type="checkbox">Fotocopia DNI
+	<input type="checkbox">Certificado Academico<br>
+	<input type="checkbox">Otros Documentos Especifique <input type="file">
+	</form>
+	</div>
+	
+	<input type="submit">
+</body>
+</html>
